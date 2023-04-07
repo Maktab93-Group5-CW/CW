@@ -9,3 +9,4 @@ with open(args.FILE_NAME, 'r') as f:
         print('Number of lines in the file:', len(f.readlines()))
     else:
         print(f.read())
+print(args.n)
